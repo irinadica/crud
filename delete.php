@@ -7,7 +7,7 @@
     $data=json_decode(file_get_contents("php://input"),true);
     $name=$data['name'];
 
-    include "../connapi.php";
+    include "connapi.php";
 
     $sql="DELETE FROM studentdata WHERE name='$name'";
 
