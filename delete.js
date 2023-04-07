@@ -7,7 +7,7 @@ btnd.addEventListener('click',(e)=>{
     var datad={'name':snamed.value};
 
     var objd=new XMLHttpRequest();
-    objd.open('DELETE','http://localhost/week9/delete/delete.php',true);
+    objd.open('DELETE','http://localhost/week9/delete.php',true);
     objd.onload=function()
     {  
         var dataExtractiond=objd.responseText;  
